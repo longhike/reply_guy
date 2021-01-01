@@ -10,7 +10,7 @@
     "start:prod": "node server/server.js",
     "start:dev": "concurrently \"npm run server\" \"npm run client\"",
     "server": "nodemon --exec ts-node server/server.ts",
-    "client": "cd client && npm run start",
+    "client": "cd client_side && npm run start",
     "heroku-postbuild": "npm run build"
   },
   "keywords": [],
