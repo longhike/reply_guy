@@ -1,13 +1,18 @@
-import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import React, {useState} from 'react';
+import Container from 'react-bootstrap/Container'
+import Header from './Components/Header'
 
 function App() {
+
+  
+
   return (
     <div className="App">
-      <header className="App-header">
-        <p>HELLO WORLD</p>
-      </header>
+      <Header />
+      <Container className='Main'>
+        Hi from the container
+      </Container>
+
     </div>
   );
 }
